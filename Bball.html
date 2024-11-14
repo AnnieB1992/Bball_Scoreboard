@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+    <body> 
+        <main> 
+            <div class="columns" >
+                <h3 class="board-title">HOME</h3>
+                <h3 class="board-title">GUEST</h3>
+            </div>
+            
+                
+            <div class="columns" >
+                <h2 class="points-el" id="home-el">0</h2>
+                <h2 class="points-el" id="guest-el">0</h2>
+            </div>
+    
+
+        <div class="columns" id="button-wrapper">
+            <div class="button-row" >
+                <button class="btns" onclick="home1()">+1</button>
+                <button class="btns" onclick="home2()">+2</button>
+                <button class="btns" onclick="home3()">+3</button>
+            </div>
+
+            <div class="button-row">
+                <button class="btns" onclick="guest1()">+1</button>
+                <button class="btns" onclick="guest2()">+2</button>
+                <button class="btns" onclick="guest3()">+3</button>
+            </div>
+        </div>
+
+            <div class="columns">
+                <button class="reset" id="newGame" onclick="gameOver()">New Game</button>
+            </div>
+
+    
+        <script src="Bball.js"></script>
+
+        </main>
+    </body>
+</html>
